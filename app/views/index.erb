@@ -4,4 +4,8 @@
     <input type="text" name="body" size="60" placeholder="type your tweet here">
     <input class="submit-btn" type="submit" value="Send">
   </form>
+
+  <% if @success %>
+    <%= @success %>
+  <% end %>
 </div>
